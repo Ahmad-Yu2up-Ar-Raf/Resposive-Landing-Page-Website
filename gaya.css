@@ -1,0 +1,866 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,800);
+
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Poppins';
+    box-sizing: border-box;
+    /* border: solid ; */
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+.navbar-bar  {
+display: none;
+
+}
+
+.navbar {
+    background: #fff;
+    width: 100%;
+    position: fixed;
+    height: 1%;
+   padding: 1.4rem 10%;
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
+    min-height: 12vh;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.3),0 0 0 rgba(0,0,0,0.1);
+}
+
+
+
+
+
+nav .navbar-content ul  {
+  display: flex;
+    list-style: none;
+   
+}
+
+
+
+
+nav .navbar-content ul li a {
+    padding: 18px;
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+    transition: .3s ease-in-out;
+    font-size: 15px;
+}
+
+nav .navbar-content ul li a:hover { 
+    color: #FF2626;
+    
+}
+
+.navbar-icon i {
+   
+   margin: 10px;
+    color:white;
+    background: black;
+    padding: 7px;
+    border-radius: 50%;
+}
+
+
+#Hero {
+    min-height: 100vh;
+    align-content: center;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 9rem 10%;
+ 
+
+}
+.hero  img {
+    width: 40%;
+}
+.hero-content h5 {
+    width:  fit-content;
+    background:  #FFECEC;
+    padding: 25px 5%;
+    border-radius: 40px;
+    color:#FF2626 ;
+   font-size: 15px;
+}
+
+.hero-content #order {
+    font-size: 17px;
+   font-weight: 700;
+    padding: 20px ;
+    background: #FF2626;
+    border: none;
+    color: #fff;
+    border-radius: 50px;
+    width: 190px;
+    height: 50%;
+    transition: .3s ease-in-out;
+}
+
+.hero-content #order:hover {
+  color: #FF2626;
+  background: #fff;
+  box-shadow: 0 3px 3px rgba(0,0,0,0.3),0 0 40px rgba(0,0,0,0.1)inset ;
+}
+
+
+.hero-content button  .fa-arrow-right {
+    color: black;
+    font-size: 15px;
+    background: #fff;
+     padding: 2%;
+    border-radius: 100%;
+   transition: .3s ease-in-out;
+    margin-left: 9%;
+   
+}
+
+.hero-content button .fa-arrow-right:hover{
+    background: #FF2626;
+    color: #fff;
+}
+
+.hero-content h1 {
+    font-size: 79px;
+    font-weight: 900;
+    line-height: 130%;
+}
+
+span {
+    color: #FF2626;
+}
+
+.hero-content p {
+    font-size: 15px;
+    font-weight: 700;
+    width: 30rem;
+    margin-bottom: 10%;
+}
+
+ #demo {
+    color: #000;
+    background: transparent;
+    font-size: 17px;
+    font-weight: 700;
+     padding: 20px ;
+
+     border: none;
+
+   
+     width: 197px;
+    
+}
+
+#demo i {
+    color: #fff;
+    background:   #FF2626 ;
+    padding: 3% 6px;
+    border-radius: 50%;
+    margin-left: 9%;
+   padding-left: 8px;
+   font-size: 15px;
+}
+
+#categories {
+    min-height: 100vh;
+    
+    align-content: center;
+}
+
+#categories .title {
+    margin: auto;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 90px;
+}
+#categories .card {
+    
+   margin: 10px 10%;
+   
+   white-space: nowrap;
+   text-align: center;
+   overflow: hidden;
+   max-width: 100%;
+   overflow-x: scroll;
+
+  
+}
+
+
+
+#categories .card img {
+    
+    background:#FFECEC;
+    border-radius: 50%;
+    width: 113px;
+    margin-top: -2rem;
+    margin-bottom: 4rem;
+}
+
+#categories a {
+    text-decoration: none;
+    color: #000;
+}
+
+#categories .card .card-content {
+    display: inline-block;
+    overflow: hidden;
+    align-items: center;
+
+    cursor: pointer;
+    border-radius: 9%;
+    padding: 90px;
+    background: #ffffff;
+    
+    box-shadow: 0 0 13px rgba(0,0,0,0.1);
+    margin: 5px;
+    transition: .3s ease-in-out;
+
+}
+
+#categories .card .card-content:hover {
+    background:#FF2626 ;
+ }
+
+ .card .card-content h1 {
+ 
+    font-size: 20px;
+    margin-bottom: -2rem;
+ }
+
+ /* services */
+ #services {
+    align-content: center;
+    min-height: 100vh;
+ }
+
+ .services-content {
+ margin: auto;
+    display: flex;
+    align-items: center;
+padding: 0px 10%;
+   justify-content: space-between;
+ }
+
+
+ .services-content img {
+    width: 100%;
+ }
+.services-title {
+    width: 40rem;
+}
+
+ .services-title h1 {
+    font-size: 60px;
+   
+ }
+
+ .services-title p {
+    font-weight:600;
+    font-size: 100%;
+   
+    line-height: 30px;
+    text-align: justify;
+ }
+ /*  */
+
+ /*  */
+ #Proces {
+    min-height: 100vh;
+    align-content: center;
+ }
+
+.title {
+    margin-bottom:10% ;
+}
+
+ .title h1 {
+    text-align: center;
+    font-size: 60px;
+ }
+
+ .Proces-card {
+    
+    display: flex;
+     justify-content: center;
+    flex-wrap: wrap;
+   
+ }
+
+ .Proces-content {
+    text-align: center;
+   width: 400px;
+   margin: 2px;
+ }
+
+
+.Proces-content img {
+    width: 11rem;
+}
+
+.tged img {
+    margin-top: -1rem;
+    margin-bottom: 9px;
+}
+
+.Proces-content h1 {
+    margin: 29px;
+    margin-bottom: -1rem;
+}
+
+.Proces-content p {
+    font-size: 14px;
+     padding:3rem ;
+}
+ /*  */
+ 
+ /*  */
+  #Review {
+    min-height: 150vh;
+    margin: 10px 10%;
+  
+    align-content: center;
+  }
+  
+  .person {
+    display: flex;
+   
+   
+  }
+  .person img {
+ margin-right: 2rem;
+ width: 100px;
+   
+  border-radius: 50%;
+  }
+
+  .Customer {
+ justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+ 
+  .review-content h1 {
+    margin-bottom: 29px;
+    font-size: 49px;
+  }
+
+
+  .review-content  p {
+    
+    width: 79%;
+    text-align: justify;
+ 
+  }
+
+
+
+  blockquote::before {
+    font-family:"OpenSans" ;
+    content: '\201c';
+    margin: -3rem;
+    font-size:160px ;
+    color: #FFECEC;
+    position: absolute ;
+   z-index: -1;
+
+
+  }
+
+
+
+  .review-content {
+    width: 520px;
+  }
+
+  .review-content .fa-star{
+  margin-top: 29px;
+font-size: 25px;
+padding: 2px;
+margin-bottom: 45px;
+  }
+
+  .waltuh {
+    align-content: center;
+
+  }
+
+  .waltuh p {
+    width: 10px;
+  }
+
+.kotak {
+    position: absolute;
+    margin-top: -2em;
+    background: #FFECEC;
+   
+    width: 320px;
+    z-index: -1;
+    margin-left: 190px;
+   
+    min-height: 43vh;
+}
+
+.thom {
+    margin-left: 6rem;
+}
+
+.thom img{
+ 
+ height: 80px;
+ width: 80px;
+ border-radius: 50%;
+  
+
+ margin-top: -50px;
+ border: 5px solid white;
+}
+
+.thom2 {
+    margin-left: -2rem;
+    z-index: 1;
+}
+
+
+.ulasan{
+  display: flex;
+  overflow: hidden;
+  min-width: 100%;
+
+  width: 100%;
+} 
+.ulasan .ulasan-content {
+    min-width: 610px;
+    animation: sliding 20s ease infinite;
+}
+@keyframes sliding {
+    0%,20%{
+         transform: translateX(0);
+    }
+    25%,50%{
+        transform: translateX(-100%);
+    }
+    55%,98%{
+        transform: translateX(-200%);
+    }
+}
+ /*  */
+
+ /*  */
+ #download {
+    min-height: 100vh;
+    align-content: center;
+ 
+ }
+
+.app h1 {
+    color: #fff;
+    font-size: 30px;
+    width: 70%;
+    
+}
+
+ .app {
+    margin: 10px 15%;
+    display: flex;
+    
+    align-items: center;
+    border-radius: 40px;
+    background: #000;
+}
+
+.Android {
+    padding: 80px;
+    
+}
+ 
+ .mockup {
+   right: 18%;
+
+    position: absolute;
+   
+ }
+
+ .Android img {
+    margin-top: 20px;
+    min-height: fit-content;
+     padding-right: 12px;
+ }
+
+
+
+
+ footer {
+    background-color: #FFECEC;
+    min-height: 60vh;
+    align-content: center;
+   align-items: center;
+ }
+ .footer {
+
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
+   width: 100%;
+  padding-right: 7%;
+    padding-left: 160px;
+    flex-wrap: wrap;
+ }
+
+
+
+.footer .waktu {
+    margin-top: 10%;
+}
+
+ .footer p {
+    width: 310px;
+ }
+ .footer h1 {
+    font-size: 20px;
+ }
+
+ .footer ul li {
+    list-style: none;
+    cursor: pointer;
+transition: .3s ease-in-out;
+ }
+
+ 
+ .footer ul li:hover{
+    color: #FF2626;
+ }
+
+ .social-media {
+    text-align: center;
+  
+ }
+
+.fa-brands {
+   margin: 25px;
+}
+
+ .fa-facebook-f {
+    padding: 23px;
+   
+    color: #000;
+    font-size: 35px;
+     background-color: #fff;
+    clip-path: circle();
+ }
+
+.fa-tiktok{
+    padding: 13px;
+   
+    color: #000;
+    font-size: 37px;
+     background-color: #fff;
+    clip-path: circle();
+   
+}
+
+.fa-instagram{
+    padding: 13px;
+   
+    color: #000;
+    font-size: 40px;
+     background-color: #fff;
+    clip-path: circle();
+
+}
+
+.fa-x-twitter {
+    padding: 13px;
+   
+    color: #000;
+    font-size: 35px;
+     background-color: #fff;
+    clip-path: circle();
+   
+}
+
+ /*  */
+
+ /* media queri  */
+ @media(max-width : 960px){
+
+    .navbar-icon i {
+        display: none;
+    }
+    nav .navbar-content ul li a{
+         
+        font-size: 1.4em;
+
+    }
+   
+    nav .navbar-content ul li {
+        margin: 2.5em 0em;
+    }
+    nav .navbar-content ul {
+        display:contents;
+       
+       
+    }
+
+    nav .navbar-content {
+        box-shadow: 0px 10px 40px rgba(0,0,0,0.3),0 0 0 rgba(0,0,0,0.1);
+        width: 14em;
+        height:100vh;
+        right: 0%;
+        position: fixed;
+        top: 12%;
+        background: rgba(255, 38, 38, 0.505);
+        transform: translateX(100%);
+        transition: .3s;
+    }
+    nav .navbar-content.active {
+        transform: translateX(0%);
+    }
+    .navbar-bar {
+        display: inline-block;
+        font-size: 30px;
+        cursor: pointer;
+    }
+ }
+ /*  */
+
+ /*  */
+ @media(max-width : 1337px){
+   #download {
+    min-height: 100vh;
+   }
+    .Customer {
+       display:grid ;
+       margin: auto;
+ justify-content: center;
+
+    }
+    .app {
+        display:inline;
+        align-items: center;
+        
+        justify-content: center;
+    }
+    .mockup{
+        
+        position: relative;
+        right: inherit;
+        margin: auto;
+        width: fit-content;
+    }
+
+    .Android{
+        background: #000;
+        text-align: center;
+        width: fit-content;
+        margin: auto;
+        border-radius: 20px;
+   
+    }
+    .Android h1 {
+        width: fit-content;
+      
+    }
+ }
+
+ @media(max-width : 1191px){
+    .footer {
+       display: inline;
+       text-align: center;
+    }
+    .footer p {
+        margin: auto;
+    }
+    .footer-content{
+        margin: 50px 0%;
+    }
+    .footer .waktu {
+        margin-top: 2%;
+    }
+    .footer ul  {
+        width: fit-content;
+    
+        margin: auto;
+    }
+}
+/*  */
+@media(max-width:1080px){
+   
+    #Hero h1{
+     width: fit-content;
+        font-size: 3em !important;
+    }
+    #Hero p {
+        width: fit-content;
+        font-size: 18px !important;
+        
+    }
+}
+@media (max-width : 981px) {
+   .services-content h1{
+       font-size:240% ;
+   }
+   .services-content p {
+    line-height: normal;
+    font-size: 80%;
+}
+}
+
+ @media(max-width : 633px){
+    .mockup img {
+        width: 300px;
+    }
+    .Android img {
+        width: 60px;
+    }
+    .Android {
+        padding: 30px;
+    }
+    .Android h1 {
+        width: fit-content;
+        font-size: 20px;
+    }
+    #Review {
+
+        padding-left: 10%;
+    }
+    .rujak {
+        margin-left:21px ;
+    }
+    .bumbu{
+     
+
+        margin: auto;
+        width: 60%;
+    }
+    .kotak{
+        min-height: 30vh;
+        width: 200px;
+        margin-left: 90px;
+    }
+    .thom{
+        margin-left: 30px;
+    }
+    
+    .thom img{
+ 
+        height: 60px;
+        width: 60px;
+       
+       }
+       .person img {
+        margin-right: 2rem;
+        width: 80px;
+          
+         border-radius: 50%;
+         }
+       
+          .review-content {
+            width: 370px;
+            margin: auto;
+          }
+       .review-content h1 {
+        font-size: 26px;
+       }
+       .review-content p {
+  font-size: 10px;
+  width: 57%;
+       }
+    .hero{
+        padding: 20px;
+    }
+    /* .kecil {
+       
+        font-size: 1px;
+      
+    } */
+    /* .ulasan .ulasan-content {
+        min-width: 610px;
+
+    } */
+
+    /* .review-content  {
+        width: 10%;
+    } */
+        #Hero img {
+            
+            width: 60%;
+        }
+        #Hero h5 {
+           width: fit-content !important;
+         font-size: 7.8px ;
+         padding: 0.9em;
+         margin-bottom: 1em;
+        }
+        #Hero p {
+            width: 90%;
+            font-size: 8px !important;
+            
+        }
+    #Hero h1{
+     
+            font-size: 1.6em !important;
+        }
+        #demo {
+            color: #000;
+            background: transparent;
+    
+            font-weight: 700;
+     
+            font-size: 10px !important;
+    
+             width: 105px !important;
+            padding: 8px ;
+        }
+        
+        #demo i {
+            color: #fff;
+            background:   #FF2626 ;
+            padding: 2% 4px;
+        
+           font-size: 5px;
+        }
+        .hero-content #order  {
+            font-size: 10px !important;
+    
+            padding: 8px ;
+        
+            width: 110px !important;
+           
+        }
+        
+        .hero-content button  .fa-arrow-right {
+          
+            font-size:7px;
+        
+        }
+        .services-content{
+    /* padding: ; */
+       margin: auto;
+        }
+        .services-content h1{
+            font-size:140% ;
+        }
+        .services-content p {
+            line-height: normal;
+            font-size: 60%;
+        }
+        /* .services-content img {
+            width: 130%;
+        } */
+ }
